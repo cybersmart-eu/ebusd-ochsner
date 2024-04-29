@@ -1,1 +1,4 @@
 This Folder contains documentation only relevant for creating the ebusd configuration files and templates (not for any hardware or software setup), nor any instructions on how to use ebusd.
+The Excel-File is my master table where all ebus IDs (TEM_P) have descriptions (derived from Ochsner or other relevant documentation) aded in german and english language. In addition all different operations modes and status-codes are listed with their specific numeric values and text-strings. The ebus Addresses have been identified and confirmed (working with MY heatpump model) values are marked with green background color.
+I also added the Datatypes relevant for decoding the payload (might not be 100% correct yet) as well as other useful information (like "string" - Text for mapping of values to strings used in the _template.csv).
+WORK IN PROGREASS - not all addresses have been verified or added to the configuration files yet.
