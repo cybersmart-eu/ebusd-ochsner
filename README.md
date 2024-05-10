@@ -8,6 +8,12 @@ The (on/off) air source heat pump (equipped with an embedded auxiliary heater) h
 The OTE 3/4 ist the User Interface to control the heat pump and internally communicates via eBUS with the Control Unit and other eBUS capable devices. Unfortunately, Ochsner does not provide any interface with API by default allowing remote access and remote control of the heat pump. To access the heat pump from a Home Automation System a gateway is required.
 With the help of an ebus Gateway and some re-engineering it is possible to decode the messages on the eBUS and make them "human and machine readable", allowing the eBUS of the Ochsner heat pumps to interface with TCP/IP networks and make them remote controllable.
 
+### Check your Ochsner Hardware and Software Version
+Before someone is using my configuration files, I recommend to check the Hardware and Software of your main controller either on the heat pump itself (needs to be opened for that to check the label inside) or with an <ebusd info> command
+
+![image](https://github.com/cybersmart-eu/ebusd-ochsner/assets/77569473/8c0f0833-acea-463e-8084-536d43769e9a)
+
+
 ## The Gateway - ebusd and adapters
 Luckily a developer with nickname [john30](https://github.com/john30) developed an "ebus deamon", acting as an eBUS gateway, and provides his Open-Source software [ebusd](https://github.com/john30/ebusd) free of charge via github. A hardware adapter as serial interface is required, to physically connect the eBUS with computer hardware. John, the author of ebusd also provides [hardware adapters ](https://adapter.ebusd.eu/) for this purpose, but also other available 3rd party adapters shall do the job.
 
