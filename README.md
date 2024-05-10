@@ -9,7 +9,7 @@ The OTE 3/4 ist the User Interface to control the heat pump and internally commu
 With the help of an ebus Gateway and some re-engineering it is possible to decode the messages on the eBUS and make them "human and machine readable", allowing the eBUS of the Ochsner heat pumps to interface with TCP/IP networks and make them remote controllable.
 
 ### Check your Ochsner Hardware and Software Version
-Before someone is using my configuration files, I recommend to check the Hardware and Software of your main controller either on the heat pump itself (needs to be opened for that to check the label inside) or with an `ebusd info` command
+Before someone is using my configuration files, I recommend to check the main controller ID, Hardware and Software of your main controller either on the heat pump itself (needs to be opened for that to check the label inside) or with an `ebusd info` command. The main controller is listes with **address 15**, in my case with ID 24849, SW-Version 0605 and Hardware revision 0102. This is also part of the naming convention of the configuration file as per [John's instructions](https://github.com/john30/ebusd-configuration), so that ebusd can automatically pick the best fitting configuration file in case several configuration files are found.
 
 ![image](https://github.com/cybersmart-eu/ebusd-ochsner/assets/77569473/8c0f0833-acea-463e-8084-536d43769e9a)
 
