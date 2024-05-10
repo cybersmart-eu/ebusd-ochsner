@@ -23,6 +23,10 @@ Please also check outthe github of [Lori ](https://github.com/Lorilatschki) and 
 
 ## ebusd - most important commands
 xxx
+### ebusd listen
+xxx
+![image](https://github.com/cybersmart-eu/ebusd-ochsner/assets/77569473/dcc1912e-0bb8-4099-bd23-61af8259b361)
+
 ## ebusd - configuration files
 xxx
 
