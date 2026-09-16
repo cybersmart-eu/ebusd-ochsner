@@ -1,4 +1,13 @@
 # ebusd-ochsner
+## Diagnostic logging (review draft)
+
+A read-only HTTP cache recorder and an optional prioritized polling profile are
+available in [`tools/`](tools/). The recorder preserves source timestamps, numeric
+states, available raw replies and data-quality flags. It does not change settings
+or trigger bus reads. See the [German logging guide](docs/logging.md) for setup,
+tests and limitations, and the [comparison of Ochsner projects](docs/research-ochsner.md)
+for firmware-specific findings. Hardware validation is still required.
+
 This Repo contains a documentation of my personal setup to gain access via eBUS with ebusd to my Ochsner Heatpump Air 11 C11A with Unifresh 500 as buffer/boiler. 
 For some general information, please refer to the [Wiki](https://github.com/cybersmart-eu/ebusd-ochsner/wiki/).
 # [Ochsner Air 11 C 11 A](https://www.ochsner.com/de-de/ochsner-produkte/air-11-c11a/)
@@ -53,4 +62,3 @@ xxx
 ### InfluxDB
 xxx
 ### Grafana
-
