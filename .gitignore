@@ -1,0 +1,8 @@
+# Local recordings and credentials never belong in the public repository.
+recordings/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+__pycache__/
+.venv/
+.env
